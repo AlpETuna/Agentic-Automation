@@ -1,0 +1,47 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+
+\geometry{margin=1in}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\thepage}
+\lhead{{{TITLE}}}
+
+\lstset{
+    basicstyle=\ttfamily\small,
+    keywordstyle=\color{blue},
+    commentstyle=\color{green},
+    stringstyle=\color{red},
+    breaklines=true,
+    frame=single
+}
+
+\title{{{TITLE}}}
+\author{{{AUTHOR}}}
+\date{{{DATE}}}
+
+\begin{document}
+
+\maketitle
+
+\section{Overview}
+{{OVERVIEW}}
+
+\section{Technical Details}
+{{TECHNICAL_CONTENT}}
+
+\section{Implementation}
+{{IMPLEMENTATION}}
+
+\section{Results}
+{{RESULTS}}
+
+\end{document}
